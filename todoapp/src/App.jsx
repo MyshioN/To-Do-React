@@ -32,7 +32,7 @@ function App() {
     body: JSON.stringify(task)
   })
 
-  const data = await res.json()
+  const data = await res.json();
 
   setTasks([...tasks, data])
 }
